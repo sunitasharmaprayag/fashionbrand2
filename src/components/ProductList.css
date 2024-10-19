@@ -1,0 +1,102 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px; /* Space between grid items */
+    width: 90%;
+    margin: 0 auto; /* Center the grid within its parent */
+    justify-items: center; /* Center items within each grid cell */
+    margin-bottom: 2;
+    grid-row-gap:5px; /* Space between rows */
+    grid-column-gap: 10px; /* Space between columns */
+}
+
+.product {
+    display: flex; /* Ensure the product uses flexbox */
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 8px; /* Add padding inside the card */
+    height: 400px; /* Fixed height for smaller cards */
+    overflow: hidden; /* Prevent overflow */
+    background-color: white; /* Set a background color to cover any gaps */
+    box-shadow: none; /* Remove any box shadow if previously added */
+    border: none; /* Ensure no border is applied */
+    position: relative; /* Position relative for absolute positioning of overlay */
+
+    
+
+}
+
+.product:nth-child(n + 5) {
+    height: 400px; /* Adjust height for larger cards */
+}
+
+.product-image {
+    width: 100%; /* Full width of the card */
+    height: 70%; /* Maintain a specific height for the image */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+
+}
+.product-image:hover {
+    transform: scale(1.1); /* Scale the image to zoom in */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.product-info {
+    text-align: left; /* Align text to the left */
+    flex-grow: 1; /* Allow this section to take up remaining space */
+    position: absolute; /* Position the info overlay */
+    top: 0; /* Align to the top of the product */
+    left: 0; /* Align to the left of the product */
+    right: 0; /* Align to the right of the product */
+    bottom: 0; /* Align to the bottom of the product */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack name and price vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center; /* Center items vertically */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for visibility */
+}
+
+.product:hover .product-info {
+    opacity: 1; /* Show info on hover */
+}
+.product h3 {
+    font-size: 0.9rem; /* Smaller font size for product name */
+    margin: 5px 0; /* Margin around the heading */
+    text-align: left; /* Align text to the left */
+    font-weight: 6;
+    font-style: normal;
+    color: gray;
+    font-style: normal;
+}
+
+.product p {
+    font-size: 0.8rem; /* Smaller font size for price */
+    text-align: left; /* Align text to the left */
+    font-weight: 0.3;
+    font-style: normal;
+    color: grey;
+    
+}
+
+.regular-price {
+    text-decoration: line-through; /* Strike-through for regular price */
+    color: gray; /* Color for regular price */
+}
+
+.sale-price {
+    font-weight: lighter; /* Bold for emphasis */
+    color: rgb(80, 74, 74); /* Color for regular price */
+
+}
+
+#p1 {
+    text-align: left;
+    font-size: 0.0rem; /* Smaller font size */
+    font-weight: lighter ;
+    text-align: left; /* Align text to the left */
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.075);
+}

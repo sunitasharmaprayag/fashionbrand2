@@ -1,0 +1,214 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: white; /* Light background color */
+    padding: 20px; /* Padding for the footer */
+    text-align: center; /* Center-align text */
+}
+
+.quick-links {
+    margin: 20px 5px; /* Space around Quick Links */
+    text-align: left;
+}
+
+
+.links-grid {
+    display: grid; /* Change this to grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.links-column {
+    background-color: white; /* Light background for each column */
+    padding: 15px; /* Padding for each column */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.links-column h2 {
+    margin-bottom: 10px; /* Space below heading */
+    color: black;
+    font-size: 1.2rem; /* Adjust size if necessary */
+}
+
+
+.links-column ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin to align with h2 */
+    color: black;
+    font-style: normal;
+}
+.quick-links ul li {
+    margin: 5px 0; /* Adjust vertical margin between list items */
+    color: grey;
+}
+
+.links-column a {
+    color: grey; /* Set link color to grey */
+    text-decoration: none; /* Remove underline */
+    transition: text-decoration 0.3s ease; /* Smooth transition for underline */
+}
+
+.links-column a:hover {
+    color: grey; /* Keep color the same on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+input[type="email"] {
+    padding: 10px; /* Padding for the input field */
+    margin-right: 10px; /* Space between input and button */
+}
+
+button {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007bff; /* Button color */
+    color: rgba(255, 255, 255, 0.605); /* Button text color */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.footer-info {
+    display: flex; /* Makes the footer-info a flex container */
+    justify-content: space-between; /* Distributes space between children */
+    align-items: center; /* Vertically aligns items in the center */
+    padding: 20px; /* A
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #f8f8f8; /* Adjust background color as needed */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+.footer-section {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out sections */
+    padding: 20px; /* Add some padding */
+    background-color: white; /* Light background for the footer */
+}
+
+.subscribe-input-container {
+    display: flex; /* Align elements in a row */
+    align-items: center; /* Center items vertically */
+}
+
+.subscribe-input-container input {
+    flex: 1; /* Take up available space */
+    padding: 10px; /* Add padding */
+    border: 1px solid white; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+}
+.subscribe-input-container .arrow {
+    margin-left: 10px; /* Space between button and arrow */
+    font-size: 20px; /* Size of the arrow */
+    color: #007BFF; /* Same color as button for consistency */
+}
+
+.social-media {
+    flex: 1; /* Allows the social media section to take available space */
+    display: flex; /* Allows social media icons to align in a row */
+    justify-content: flex-end; /* Aligns icons to the right */
+}
+
+.social-media-icons a {
+    margin-left: 10px; /* Adds space between the icons */
+    font-size: 24px; /* Adjusts icon size */
+    color: #333; /* Sets icon color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.social-media-icons a {
+    font-size: 20px; /* Adjust size of icons */
+    color: black; /* Change color */
+    text-decoration: none; /* Remove underline */
+}
+
+
+
+.country-selection {
+    display: flex;
+    flex-direction: column; /* Stack label and select vertically */
+    align-items: center; /* Center align items */
+    margin-bottom: 15px; /* Space below the country selection */
+}
+
+#country {
+    padding: 5px; /* Add some padding for better appearance */
+    font-size: 14px; /* Adjust font size if needed */
+    width: 150px; /* Set a larger width for the select box */
+    border: 1px rgb(140, 147, 154) rgba(128, 128, 128, 0.315); /* Use a visible border color */
+    height: 50px;
+    color: grey;
+}
+
+#country:focus {
+    border-color: white; /* Change border color on focus for better visibility */
+}
+.payment-options {
+    display: flex; /* Displays payment options in a row */
+    flex: 1; /* Allows the payment options to take available space */
+    justify-content: flex-end; /* Aligns payment options to the right */
+}
+
+.payment-options img {
+    margin-left: 10px; /* Adds space between the images */
+    max-width: 30px; /* Sets a maximum width for the images */
+    height: auto; /* Maintains aspect ratio */
+}
+.country-selection label {
+    margin-bottom: 0px; /* Reduced space between label and select */
+}
+
+
+#p1
+{
+color: black;
+font-size: 1rem;   
+font-family: Arial; 
+text-decoration: none;
+}
+
+
+#p2
+{
+color: black;
+font-size: smaller;
+
+}
+#p3{
+    text-align: left;
+    color: grey;
+    font-size: x-small;
+}
+
+#l1
+{
+    color: grey;
+    font-size: 1rem;   
+    font-family: Arial; 
+    text-decoration: none;
+    
+}
+
+.footer-section {
+    padding: 20px; /* Add some padding around the footer */
+    background-color: white; /* Ensure background is white */
+}
+
+.subscribe-section {
+    margin-bottom: 20px; /* Add space below the subscribe section */
+}
+
+.footer-info {
+    border-top: 1px solid #ccc; /* Add a top border to separate sections */
+    padding-top: 20px; /* Add some padding above the content */
+    margin-top: 20px; /* Add space above the footer info */
+}

@@ -1,0 +1,64 @@
+.header {
+    background-color: white;
+    display: flex; /* Use flex to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items */
+}
+
+.navbar {
+    position: relative; /* Position for submenus */
+    height: 100%; /* Full height of the header */
+    font-weight: lighter;
+    color: gray;
+}
+
+.shipping-container {
+    text-align: center; 
+    padding: 10px 0; 
+    background-color: white;
+    color: black;
+}
+
+.shipping {
+    font-weight: bold; 
+    color: black;
+    font-size: 0.9rem; /* Change this from font-family */
+}
+
+.shipping-underline {
+    height: 2px; 
+    background-color: #ddd; 
+    margin: 5px auto; 
+    width: 100%; 
+    color: black;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.submenu {
+    position: absolute; 
+    background-color: white; 
+    z-index: 200; 
+    padding: 10px; 
+    display: block; /* Keep the submenu always visible */
+}
+
+
+
+.submenu li a {
+    color: black; 
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Make the entire area clickable */
+}
+
+/* Optional: Change link color on hover */
+.submenu li a:hover {
+    background-color: #f0f0f0; /* Highlight background on hover */
+}
+ #p1
+ {
+    background-color: white;
+ }

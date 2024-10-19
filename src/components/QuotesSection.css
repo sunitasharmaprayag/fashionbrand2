@@ -1,0 +1,34 @@
+.quotes-container {
+    text-align: center; /* Center the text inside the container */
+    background-color: white; /* Ensure background is white */
+    padding: 20px; /* Add some padding */
+}
+
+.quote-wrapper {
+    display: flex; /* Use flexbox to layout quote sections side by side */
+    justify-content: space-between; /* Space them evenly */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.quote-section {
+    flex: 1; /* Allow each section to take equal space */
+    padding: 20px; /* Padding inside each quote section */
+    background-color: white; /* Light background for visibility */
+    margin: 0 10px; /* Add horizontal spacing between sections */
+    max-width: 700px; /* Set a max-width to maintain layout */
+    font-weight: 1;
+}
+
+.quotes-heading {
+    font-size: 2rem; /* Adjust size as needed */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+
+
+.cut-image,
+.refinery-image {
+    height: 40px; /* Consistent height for both images */
+    width: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below images */
+}
