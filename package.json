@@ -1,8 +1,9 @@
 {
   "name": "fashion-brand",
   "version": "0.1.0",
-  "homepage": "https://github.com/sunitasharmaprayag/fashionbrand2.git",
+  "homepage": "https://sunitasharmaprayag.github.io/fashionbrand2",
 
+  
   
   "private": true,
   "dependencies": {
