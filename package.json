@@ -1,9 +1,7 @@
 {
   "name": "fashion-brand",
   "version": "0.1.0",
-  "homepage": "https://sunitasharmaprayag.github.io/fashionbrand2",
-
-  
+  "homepage": "https://sunitasharmaprayag.github.com/fashionbrand2",
   
   "private": true,
   "dependencies": {
@@ -11,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "express": "^4.21.1",
     "font-awesome": "^4.7.0",
     "framer-motion": "^11.11.9",
     "react": "^18.3.1",
@@ -23,12 +22,13 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-    
-
+    "build": "react-scripts build"
   },
+
+
+
+  
+
   "eslintConfig": {
     "extends": [
       "react-app",
