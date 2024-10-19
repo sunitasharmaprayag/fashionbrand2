@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/fashionbrand2/static/css/main.f9b0b51e.css",
+    "main.js": "/fashionbrand2/static/js/main.63b53c44.js",
+    "static/js/453.23a3c7f2.chunk.js": "/fashionbrand2/static/js/453.23a3c7f2.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/fashionbrand2/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/fashionbrand2/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/fashionbrand2/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/fashionbrand2/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/fashionbrand2/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Helix2.webp": "/fashionbrand2/static/media/Helix2.b00c3e3ecf8719861cae.webp",
+    "static/media/Hero.jpg": "/fashionbrand2/static/media/Hero.f1b965c83af4ff7c6eba.jpg",
+    "static/media/Helix3.webp": "/fashionbrand2/static/media/Helix3.09befafce53bf6fab5ea.webp",
+    "static/media/flex.webp": "/fashionbrand2/static/media/flex.7c51e8240a4ae43462f0.webp",
+    "static/media/Pleated Heel Mule1.webp": "/fashionbrand2/static/media/Pleated Heel Mule1.f764fb97e1ff8050d532.webp",
+    "static/media/MI2.webp": "/fashionbrand2/static/media/MI2.22785bce939e5519d55d.webp",
+    "static/media/Ml.webp": "/fashionbrand2/static/media/Ml.0578a6848fd651ea4a06.webp",
+    "static/media/Pleated Heel Mule2.webp": "/fashionbrand2/static/media/Pleated Heel Mule2.5b3b83df6df90402a422.webp",
+    "static/media/mini-naomi-bag3.webp": "/fashionbrand2/static/media/mini-naomi-bag3.920e10c0040eab5b058c.webp",
+    "static/media/louise-slide-sandal1.webp": "/fashionbrand2/static/media/louise-slide-sandal1.22bdfdd465275d13b111.webp",
+    "static/media/louise-slide-sandal.webp": "/fashionbrand2/static/media/louise-slide-sandal.a6d21d2396dca0b639b2.webp",
+    "static/media/america1.png": "/fashionbrand2/static/media/america1.c0d9cac5039e03d254b8.png",
+    "static/media/flex1.webp": "/fashionbrand2/static/media/flex1.caa6ea2a89f563d05cc9.webp",
+    "static/media/Bo Ivy2.webp": "/fashionbrand2/static/media/Bo Ivy2.1f8e3408b7b3a8e9361c.webp",
+    "static/media/Bo Ivy3.webp": "/fashionbrand2/static/media/Bo Ivy3.ad1c7ccf4d7b9d5e3743.webp",
+    "static/media/studio4.webp": "/fashionbrand2/static/media/studio4.254845eb876b918c8161.webp",
+    "static/media/mini-naomi-bag1.webp": "/fashionbrand2/static/media/mini-naomi-bag1.286976132dc7bce634d8.webp",
+    "static/media/Brick4.webp": "/fashionbrand2/static/media/Brick4.d23613c7b5511d665ec8.webp",
+    "static/media/studio3.webp": "/fashionbrand2/static/media/studio3.61621e2086de360a8e56.webp",
+    "static/media/MI1.webp": "/fashionbrand2/static/media/MI1.13ee291541e9c772c07d.webp",
+    "static/media/Brick3.webp": "/fashionbrand2/static/media/Brick3.88c258e85594252df5d0.webp",
+    "static/media/Dawn_logo (2).webp": "/fashionbrand2/static/media/Dawn_logo (2).fce93a8c2d5887af6662.webp",
+    "static/media/block1.webp": "/fashionbrand2/static/media/block1.44b04293ff4d1e0db457.webp",
+    "index.html": "/fashionbrand2/index.html",
+    "main.f9b0b51e.css.map": "/fashionbrand2/static/css/main.f9b0b51e.css.map",
+    "main.63b53c44.js.map": "/fashionbrand2/static/js/main.63b53c44.js.map",
+    "453.23a3c7f2.chunk.js.map": "/fashionbrand2/static/js/453.23a3c7f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9b0b51e.css",
+    "static/js/main.63b53c44.js"
+  ]
+}
